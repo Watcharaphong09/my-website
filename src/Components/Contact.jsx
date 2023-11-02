@@ -3,7 +3,7 @@ const Contact = () => {
     return (
         <div className="p-4 lg:p-20 flex flex-col items-center justify-center">
            <h1 className="text-[52px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500">Contact Me</h1>
-                <form action="https://formsubmit.co/watchanygame@gmail.com" method="POST" className="flex flex-col gap-2 lg:w-1/2">
+                <form action="https://formsubmit.co/el/tevana" method="POST" className="flex flex-col gap-2 lg:w-1/2">
                     <div className="lg:flex gap-6">
                         <input className="w-full my-3 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 b_glow text-xl text-slate-500" placeholder="Enter Your Name" type="text" name="name" required/>
                         <input className="w-full my-3 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 b_glow text-xl text-slate-500" placeholder="Enter Your Email" type="email" name="email" required/>
