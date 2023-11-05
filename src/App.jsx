@@ -2,7 +2,6 @@ import Nav from "./Components/Nav";
 import Banner from "./Components/Banner";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
-import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import { useEffect, useState } from "react";
 import { Dna } from  'react-loader-spinner'
@@ -35,7 +34,7 @@ const App = () => {
             <Nav />
             <Banner />
             <About />
-            <Contact />
+            <Projects />
             <Footer />
           </div>
       }
