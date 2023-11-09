@@ -16,6 +16,7 @@ export default {
         'wglow': '0 0 15px rgb(255, 204, 51)',
         'b-iglow': '0 0 15px rgb(103, 232, 249)',
         'w-iglow': '0 0 15px rgb(255, 204, 51)',
+        'full': '5px 10px',
       },
     },
     fontFamily: {
