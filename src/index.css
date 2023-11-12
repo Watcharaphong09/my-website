@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    transition: all;
+    transition-duration: 400ms;
+}
+
 .glow{
     transition: all 0.3s ease-in-out;
 }
