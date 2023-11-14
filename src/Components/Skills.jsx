@@ -3,7 +3,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import { AiFillHtml5, AiOutlineGithub } from "react-icons/ai";
 import { BiLogoCss3, BiLogoReact, BiLogoJavascript, BiLogoTailwindCss } from "react-icons/bi";
-
+import { FaSass } from "react-icons/fa";
 
 const About = () => {
     useEffect(() => {
@@ -24,7 +24,8 @@ const About = () => {
                     <h2 data-aos="fade-up" className="text-7xl flex items-center justify-center font-semibold text-cyan-500 dark:text-yellow-300 rounded-3xl md:h-36 md:w-44 h-32 w-32 border-2 border-cyan-500 dark:border-yellow-500 shadow-bglow dark:shadow-wglow"> <BiLogoJavascript /> </h2>
                     <h2 data-aos="fade-down" className="text-7xl flex items-center justify-center font-semibold text-cyan-500 dark:text-yellow-300 rounded-3xl md:h-36 md:w-44 h-32 w-32 border-2 border-cyan-500 dark:border-yellow-500 shadow-bglow dark:shadow-wglow"> <BiLogoReact /> </h2>
                     <h2 data-aos="fade-up" className="text-7xl flex items-center justify-center font-semibold text-cyan-500 dark:text-yellow-300 rounded-3xl md:h-36 md:w-44 h-32 w-32 border-2 border-cyan-500 dark:border-yellow-500 shadow-bglow dark:shadow-wglow"> <BiLogoTailwindCss /> </h2>
-                    <h2 data-aos="fade-down" className="text-7xl flex items-center justify-center font-semibold text-cyan-500 dark:text-yellow-300 rounded-3xl md:h-36 md:w-44 h-32 w-32 border-2 border-cyan-500 dark:border-yellow-500 shadow-bglow dark:shadow-wglow"> <AiOutlineGithub /> </h2>
+                    <h2 data-aos="fade-down" className="text-7xl flex items-center justify-center font-semibold text-cyan-500 dark:text-yellow-300 rounded-3xl md:h-36 md:w-44 h-32 w-32 border-2 border-cyan-500 dark:border-yellow-500 shadow-bglow dark:shadow-wglow"> <FaSass /> </h2>
+                    <h2 data-aos="fade-up" className="text-7xl flex items-center justify-center font-semibold text-cyan-500 dark:text-yellow-300 rounded-3xl md:h-36 md:w-44 h-32 w-32 border-2 border-cyan-500 dark:border-yellow-500 shadow-bglow dark:shadow-wglow"> <AiOutlineGithub /> </h2>
                 </div>
             </div>
             <hr className='h-[1.5px] dark:bg-black' />
