@@ -11,9 +11,9 @@ const Banner = () => {
         AOS.init({
             easing: 'ease-out-quart',
             delay: 0,
-            duration: 2000,
+            duration: 1000,
         });
-    }, []);
+    });
 
     return (
         <>
@@ -23,7 +23,7 @@ const Banner = () => {
                         <h1 data-aos="fade-right" className="md:text-[52px] text-[20px] font-semibold mb-8 overflow-none ">Hi,I'm </h1>
                         <span className="text-cyan-300 dark:text-yellow-300 font-semibold md:text-[52px] text-[20px]"> <TextAnimation /></span>
                     </div>
-                    <p data-aos="fade-left" className='flex items-center font-itim md:text-xl max-w-3xl text-[16px] break-all'>ความฝันของผมคือการที่ได้เป็น full stack<FaDev/></p>
+                    <p data-aos="fade-left" className='flex items-center font-itim md:text-xl max-w-3xl text-[16px] break-all'></p>
                     <div data-aos="fade-up" className="flex mt-8 gap-2">
                         <div className="flex items-center justify-center">
                             <div className="flex space-x-2">

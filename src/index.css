@@ -3,9 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    transition: all;
-    transition-duration: 400ms;
+html{
+    overflow: scroll !important;
 }
 
 .glow{

@@ -6,13 +6,6 @@ import wachxantodo from "../assets/wachxantodo.png";
 
 
 const Projects = () => {
-    useEffect(() => {
-        AOS.init({
-            easing: 'ease-out-quart',
-            delay: 0,
-            duration: 450,
-        });
-    }, []);
 
     return (
         <div id="Projects" className="p-20 flex flex-col items-center justify-center dark:bg-swhite">
